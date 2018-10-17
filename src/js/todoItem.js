@@ -10,7 +10,7 @@ function createTodoEl(task, done) {
             <i class="far fa-circle"></i>
         </span>
         <span class="task">${task}</span>
-        <span class="delete">×</span>
+        <span class="delete"><i class="fa fa-times"></i></span>
     `;
     return container;
 }

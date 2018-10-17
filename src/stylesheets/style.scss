@@ -145,8 +145,10 @@ body {
             }
             .delete {
                 color: lightgray;
+                cursor: pointer;
             }
             .checkbox {
+                cursor: pointer;
                 &.checked {
                     .fa-check-circle {
                         display: inline;

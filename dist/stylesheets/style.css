@@ -142,6 +142,10 @@ body {
 }
 #todo-container #todo-list .todo-item .delete {
   color: lightgray;
+  cursor: pointer;
+}
+#todo-container #todo-list .todo-item .checkbox {
+  cursor: pointer;
 }
 #todo-container #todo-list .todo-item .checkbox.checked .fa-check-circle {
   display: inline;
