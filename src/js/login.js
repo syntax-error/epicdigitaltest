@@ -10,10 +10,12 @@ const els = {
 function handleSignUp() {
     const email = els.email.value;
     const password = els.password.value;
+
     if (email.length < 4) {
         alert("Please enter an email address.");
         return;
     }
+
     if (password.length < 4) {
         alert("Please enter a password.");
         return;
@@ -42,6 +44,7 @@ function handleLogIn() {
     }
     const email = els.email.value;
     const password = els.password.value;
+
     if (email.length < 4) {
         alert("Please enter an email address.");
         return;
