@@ -36,6 +36,7 @@ firebase.auth().onAuthStateChanged(function (user) {
     } else {
         if (curUserId) {
             firebase.database().ref(`users/${curUserId}`).off("value", onDatabaseUpdate);
+            [...els.list.children].forEach(n => n.remove());
         }
         curUserId = undefined;
         els.container.classList.add("hidden");
